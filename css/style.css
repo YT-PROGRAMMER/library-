@@ -176,12 +176,10 @@ input[type="search"]::before {
         display: none;
     }
     .date {
-    display: none; 
+        display: none; 
     }
-
     input[type = "date"] {
-    display: none; 
-
+        display: none; 
     }
     .right>h1 {
             font-family: "Noto Nastaliq Urdu", serif !important;
@@ -191,11 +189,11 @@ input[type="search"]::before {
             line-height: 2;
 
         }
-                .about .abo h1 {
-                    font-size:35px;
-                    font-weight: 700;
-                    color: black;
-                }
+       .about .abo h1 {
+            font-size:35px;
+            font-weight: 700;
+            color: black;
+        }
 }
 
 footer {
