@@ -13,6 +13,7 @@ html , body {
     height: 100%;
 font-family: 'Cairo', sans-serif;
 }
+
 .right > h1 {
     font-family: "Noto Nastaliq Urdu", serif !important;
     font-size: 150px;
@@ -171,6 +172,21 @@ input[type="search"]::before {
     transform: scale(1.1);
 }
 @media (max-width: 767px) {
+    .sss {
+        display: none;
+    }
+    .date {
+    display: none; 
+    }
+    
+    input[type = "checkbox"] {
+    display: none; 
+
+    }
+    input[type = "date"] {
+    display: none; 
+
+    }
     .right>h1 {
             font-family: "Noto Nastaliq Urdu", serif !important;
             font-size: 70px;
