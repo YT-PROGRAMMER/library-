@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+font-family: 'Cairo', sans-serif;
+}
+.right > h1 {
+    font-family: "Noto Nastaliq Urdu", serif !important;
+    font-size: 150px;
+}
+.right {
+    background: url(../image/blob-scene-haikei.png) no-repeat center / cover;
+}
+
+input {
+    outline: none;
+}
+input::placeholder {
+color: #00b4d8;
+}
+label {
+    margin: 10px 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.header {
+    position: relative;
+    height: 80px;
+
+}
+.header a{
+    font-size: 17px;
+
+}
+.header a:hover,
+.header .active{
+
+    color: #00b4d8 !important;
+}
+.header h1{
+        font-family: "Noto Nastaliq Urdu", serif !important;
+    color: #00b4d8;
+        font-size: 24px
+}
+.header img{
+    height: 45px;
+    
+}
+@media (max-width: 767px) {
+    .header a {
+        font-size: 15px;
+    }
+    .header .container-fluid {
+        justify-content: space-between !important;
+    }
+    .header .links {
+        display: none;
+    }
+}
+.home {
+    height: calc(100% - 80px);
+    background: url(../image/blob-scene-haikei.png) no-repeat center / cover;
+}
+.home .logo 
+{
+    font-size: 100px;
+    font-weight: 700;
+}
+.home form {
+    position: relative;
+}
+.home .btn {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    color: white;
+    width: 80px;
+    height: 50px;
+    font-size: 18px;
+}
+input[type = "search"] {
+    position: relative;
+    height: 6vh;
+    border: none;
+}
+input[type="search"]::before {
+    content: "\f002";
+    position: relative;
+    color: black;
+    width: 100px;
+    height: 100px;
+    z-index: 12838912490382347903;
+}
+
+.home form i {
+    position: absolute;
+    top: 13px;
+    color: #00b4d8;
+    right: 15px;
+    font-size: 27px;
+    z-index: 999;
+}
+.home p::selection {
+    color: black;
+    background-color: black;
+}
+.home .btns {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top:20px;
+}
+.home .btns button {
+    background: none;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    margin-right: 25px;
+}
+.about {
+    margin-top: 170px;
+}
+.about .logo h1 {
+    font-family: "Noto Nastaliq Urdu", serif !important;
+    color: #00b4d8;
+    font-size: 100px;
+}
+.about .abo h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+.about p {
+    line-height: 2.5;
+}
+
+.famous {
+    margin-top: 170px;
+}
+.famous h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    border-color: #00b4d8;
+}
+.book .rating {
+    height: 20px;
+}
+.book .qreen {
+    height: 250px;
+}
+.book { 
+    height: fit-content;
+    border-color: #00b4d8;
+    width: fit-content;
+    transition: 0.5s;
+}
+.book:hover {
+    transform: scale(1.1);
+}
+@media (max-width: 767px) {
+    .right>h1 {
+            font-family: "Noto Nastaliq Urdu", serif !important;
+            font-size: 70px;
+        }
+    .about p {
+            line-height: 2;
+
+        }
+                .about .abo h1 {
+                    font-size:35px;
+                    font-weight: 700;
+                    color: black;
+                }
+}
+
+footer {
+    background-color: #00b4d8;
+}
+footer h1{
+    font-family: "Noto Nastaliq Urdu", serif !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library</title>
+</head>
+<body>
+    <div  class="page row h-100 w-100">
+        <div class="right col-6  end-0 d-flex align-items-center justify-content-center h-100">
+            <h1 class="nastalic-font text-white fw-bold w-0">مكتبتي</h1>
+        </div>
+        <div class="left col-6 d-flex flex-column align-items-center justify-content-center">
+            <h2 class="ms-4">انشاء حساب</h2>
+            <form action="login.html" class="d-flex flex-column w-50 mt-2" dir="rtl">
+                <label for="name" class="fw-bold me-2 fs-6">الاسم بالكامل</label>
+                <input type="text" name="" id="name" class="rounded-pill border-info border p-2 mb-2 text-info fw-bold fs-6" placeholder="اكتب هنا ..." required>
+
+                <label for="name" class="fw-bold me-2 fs-6">البريد الالكتروني</label>
+                <input type="email" name="" id="ee" class="rounded-pill border-info border p-2 text-info fw-bold fs-6" placeholder="اكتب هنا ..." >
+
+                <label for="name" class="fw-bold me-2 fs-6">الرقم السري</label>
+                <input type="password" name="" id="password" class="rounded-pill border-info border p-2 text-info fw-bold fs-6" placeholder="اكتب هنا ..." required>
+                
+                <label for="name" class="fw-bold me-2  fs-6">تاريخ ميلادك</label>
+                <input dir="ltr" type="date" name="" id="data" class="text-center rounded-pill border-info border p-2 text-info fw-bold fs-6" >
+
+                <p class="fs-5 fw-bold mt-2">الجنس</p>
+                <div class="gender  ms-5 d-flex mt-n5 text-center justify-content-between">
+                    <label for="m" class="fs-6">ذكر</label>
+                    <input name="gg" value="male" type="radio" id="ma" class="ms-2 justify-content-between;">
+                    
+                    <label for="m" class="fs-6">انثي</label>
+                    <input name="gg" value="famela" type="radio" id="fa" class="ms-2 justify-content-between">
+                    
+                
+                </div>
+                <div class="d-flex mt-3 mb-3 justify-content-between">
+                    <label for="s" class="fw-bold fs-6">انت متأكد أن البيانات التي أدخلتها صحيحة ؟</label>
+                    <input type="checkbox" required id="s">
+                </div>
+                <input type="submit" class="btn btn-info text-white " value="انشاء حساب">
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
